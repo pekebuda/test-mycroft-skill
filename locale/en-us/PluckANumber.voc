@@ -1,0 +1,5 @@
+Pick (a | one | some) {domain} number
+Choose (a | one | some) {domain} number
+Pluck (a | one | some) {domain} number
+Select (a | one | some) {domain} number
+Tell me (a | one | some) {domain} number
