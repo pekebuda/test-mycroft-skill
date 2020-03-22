@@ -9,9 +9,9 @@ class TestSkill(MycroftSkill):
         variables or perform setup actions, however it cannot utilize other
         MycroftSkill methods as the class does not yet exist
         """
-        super().__init__(self)
+        super().__init__()
 
-    def initialize():
+    def initialize(self):
         """
         Perform any final setup needed for the skill here. This function is
         invoked after the skill is fully constructed and registered with the
@@ -20,7 +20,7 @@ class TestSkill(MycroftSkill):
         """
         pass
 
-    def stop():
+    def stop(self):
         """
         What your Skill should do if a stop intent is detected
         """
